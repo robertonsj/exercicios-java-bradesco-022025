@@ -6,7 +6,7 @@ Escreva um código para criação de uma calculadora para resolver operações b
      1. Realizar uma soma;
      2. Realizar uma subtração;
      3. Realizar uma multiplicação;
-     4. Realizar uma divisão;
+     4. Realizar uma divisão (utilizar variavel com pontos flutuantes para retornar divisão e resto do calculo);
      5. Elever um número a uma potência N;
      6. Sair da calculadora.
 
