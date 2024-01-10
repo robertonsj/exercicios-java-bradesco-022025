@@ -1,4 +1,4 @@
-# Calculadora com menu interativo:
+# Calculadora com menu interativo
 
 Escreva um código para criação de uma calculadora para resolver operações básicas ( soma, subtração, divisão e multiplicação) se atentando com os seguintes requisitos:
 
