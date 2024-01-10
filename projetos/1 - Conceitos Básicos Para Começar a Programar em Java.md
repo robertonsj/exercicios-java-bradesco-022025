@@ -2,13 +2,13 @@
 
 Escreva um código para criação de uma calculadora para resolver operações básicas ( soma, subtração, divisão e multiplicação) se atentando com os seguintes requisitos:
 
-  1. A calculadora deve ter um menu onde o usuário informa o que deseja fazer (pelo número da opção), as opções disponíveis devem ser as seguintes:
+  1. A calculadora deve ter um menu onde o usuário informa o que deseja fazer (pelo número da opção) e após realizar a operação retornar ao menu enquanto ele não selecionar a opção de sair, as opções disponíveis devem ser as seguintes:
      1. Realizar uma soma;
      2. Realizar uma subtração;
      3. Realizar uma multiplicação;
      4. Realizar uma divisão;
      5. Elever um número a uma potência N;
-     6. Sair da calculadora,
+     6. Sair da calculadora.
 
   2. (Opcional) Para as operações de subtração e soma após o usuário informar os 2 primeiros números disponibilizar um submenu com as seguintes opções:
      1. Informar mais números para continuar a soma/subtração:
