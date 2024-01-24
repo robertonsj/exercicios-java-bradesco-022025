@@ -20,7 +20,7 @@ Siga as seguintes regras para implementar
 --------
 
 2. Escreva um código onde controlamos as funções de um carro, ele deve ter as seguintes funções:
-   - Liga o carro;
+   - Ligar o carro;
    - Desligar o carro;
    - Acelerar;
    - diminuir velocidade;
@@ -62,7 +62,7 @@ Siga as seguintes regras para implementação
 
    - A maquina de banho deve permitir somente 1 pet por vez;
    - Cada banho realizado irá consumir 10 litros de água e 2 litros de shampoo;
-   - A máquina tem capacidade náxima de 30 litros de água e 10 litros de shampoo;
+   - A máquina tem capacidade máxima de 30 litros de água e 10 litros de shampoo;
    - Se o pet for retirado da maquina sem estar limpo será necessário limpar a máquina para permitir a entrada de outro pet;
    - A limpeza da máquina ira consumir 3 litros de água e 1 litro de shampoo;
    - O abastecimento de água e shampoo deve permitir 2 litros por vez que for acionado;
