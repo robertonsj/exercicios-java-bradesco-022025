@@ -17,11 +17,11 @@ https://pt.wikipedia.org/wiki/Sudoku
         5. Verificar status do jogo: Deve-se verificar o status atual do jogo ( não iniciado, incompleto e completo) e se contém ou não erros ( o jogo está errado quando tem números em posições conflitantes) todos os status do jogo podem conter ou não erros, exceto o status não iniciado que é sempre sem erro;
         6. Limpar: remove todos os números informados pelo usuário e mantém os fixos do jogo;
 
-        7. finalizar o jogo: Se o jogo estiver com todos os espaços preenchidos de forma válida o jogo é encerrado, senão informa ao usuário que ele deve preencher todos os espaços com seus respectivos números;
+        7. finalizar o jogo: Se o jogo estiver com todos os espaços preenchidos de forma válida o jogo é encerrado, senão informar ao usuário que ele deve preencher todos os espaços com seus respectivos números;
 
   ## Extras (requisitos opcionais)
     1. Usar algum ambiente gráfico ( AWT, Swing) para criação do jogo
-    2. ter a opção de colocar números de rascunho nos quadrados, para isso deve-se seguir o seguinte modelo:
+    2. ter a opção de colocar números de rascunho nos quadrados, para isso deve-se seguir o modelo proposto na sessão modelo de rascunho:
 
   ### modelo com números
   ![Sudoku](../images/sudoku.jpg)
