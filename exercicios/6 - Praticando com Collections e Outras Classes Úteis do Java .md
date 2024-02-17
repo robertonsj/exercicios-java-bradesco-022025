@@ -6,7 +6,7 @@
 
 O código deve ser capaz de detectar as seguintes situações:
 
-  * Se receber somente números detectar se corresponde com algum dos formatos aceitos e retornar formatado, senão informar que não se trata de um número válido
+  * Se receber somente números detectar se corresponde com algum dos formatos aceitos e retornar formatado;
   * Se receber uma entrada com quantidade de números diferentes dos padrões descritos acima, informar que não se trata de um número válido;
   * Se receber um número formatado, retorna-lo do mesmo jeito e informar de qual tipo de dispositivo se trata;
   * Se receber com mascara incorreta, corrigir e retornar
