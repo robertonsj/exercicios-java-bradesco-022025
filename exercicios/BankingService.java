@@ -2,6 +2,8 @@ package exercicios;
 
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class BankingService {
 	private Account account;
 	
@@ -21,6 +23,23 @@ public class BankingService {
 		return choose;
 		
 	}
+	
+	public void depositAmount(Scanner scan) {
+		double amount = scan.nextDouble();
+		if (amount > 0) {
+            account.setSaldo(account.getSaldo() + amount);
+            System.out.println("Amount deposited successfuly. "
+            		+ "\nNew balance: R$" + account.getSaldo());
+        } else {
+            System.out.println("Invalid deposit amount!");
+        }
+	}
+
+	public Account getAccount() {
+		return account;
+	}
+	
+	
 }
 
 class Account {
@@ -32,4 +51,30 @@ class Account {
 		this.numeroDaConta = numero;
 		this.chequeEspecial = quantia;
 	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public double getChequeEspecial() {
+		return chequeEspecial;
+	}
+
+	public void setChequeEspecial(double chequeEspecial) {
+		this.chequeEspecial = chequeEspecial;
+	}
+
+	public String getNumeroDaConta() {
+		return numeroDaConta;
+	}
+
+	public void setNumeroDaConta(String numeroDaConta) {
+		this.numeroDaConta = numeroDaConta;
+	}
+	
+	
 }

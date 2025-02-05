@@ -15,16 +15,19 @@ public class Main {
 			
 			switch(operation) {
 			case 1: //Visualizar saldo
-				System.out.println("Saldo atual: R$");
+				System.out.println("Saldo atual: R$" + 
+						bank.getAccount().getSaldo());
 				break;
 				
 			case 2:
-				System.out.println("Consultar Cheque Especial:");
+				System.out.println("Consultar Cheque Especial: R$"
+						+ bank.getAccount().getChequeEspecial());
 				break;
 				
 			case 3:
 				
-				System.out.println("Quantia para Deposito:");
+				System.out.println("Enter the amount to deposit: ");
+				bank.depositAmount(scan);
 				break;
 				
 			case 4: //
