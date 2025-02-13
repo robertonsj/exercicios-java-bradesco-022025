@@ -7,9 +7,10 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
-		BankingService bank = new BankingService("122-2", 2000);
+		BankingService bank = new BankingService(500);
 		
 		while(true) {
+			
 			
 			int operation = bank.menu(scan);
 			
@@ -20,18 +21,18 @@ public class Main {
 				break;
 				
 			case 2:
-				System.out.println("Consultar Cheque Especial: R$"
+				System.out.println("Check Overdraft: R$"
 						+ bank.getAccount().getChequeEspecial());
 				break;
 				
 			case 3:
-				
 				System.out.println("Enter the amount to deposit: ");
 				bank.depositAmount(scan);
 				break;
 				
 			case 4: //
-				System.out.println("Quantia para Saque:");
+				System.out.println("Enter the amount for withdraw:");
+				bank.withdrawAmount(scan);
 				break;
 			case 5:
 				System.out.println("Pagar Boleto:");
@@ -46,6 +47,9 @@ public class Main {
 			default:
 				System.out.println("Opção Inválida!");
 			}
+			
+			bank.getAccount().isThereFee();
+			
 		}
 
 	}
